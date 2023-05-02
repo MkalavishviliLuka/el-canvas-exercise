@@ -4,9 +4,25 @@
     box-sizing: border-box;
 }
 
+body{
+    /* Player */
+    /* background-color: white; */
+
+    /* Parallax */
+    background-color: black;
+    overflow: hidden;
+}
+
 canvas{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+input, select{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
 }
